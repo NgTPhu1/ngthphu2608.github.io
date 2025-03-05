@@ -3,45 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyễn Thành Phú - Lập Trình Viên</title>
+    <title>CV - Nguyễn Thành Phú</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Nguyễn Thành Phú</h1>
-        <p>Lập trình viên & Nhà phát triển phần mềm</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">Giới thiệu</a></li>
-            <li><a href="#skills">Kỹ năng</a></li>
-            <li><a href="#projects">Dự án</a></li>
-            <li><a href="#contact">Liên hệ</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>Giới thiệu</h2>
-        <p>Xin chào! Tôi là Nguyễn Thành Phú, một lập trình viên đam mê công nghệ với nhiều năm kinh nghiệm trong phát triển phần mềm và ứng dụng web.</p>
-    </section>
-    <section id="skills">
-        <h2>Kỹ năng</h2>
-        <ul>
-            <li>Ngôn ngữ lập trình: HTML, CSS, JavaScript, Python</li>
-            <li>Phát triển Web: React, Node.js</li>
-            <li>Cơ sở dữ liệu: MySQL, MongoDB</li>
-        </ul>
-    </section>
-    <section id="projects">
-        <h2>Dự án</h2>
-        <p>Một số dự án tôi đã thực hiện bao gồm ứng dụng quản lý công việc, trang web thương mại điện tử, và hệ thống quản lý khách hàng.</p>
-    </section>
-    <section id="contact">
-        <h2>Liên hệ</h2>
-        <p>Email: <a href="mailto:nguyenthanhphu@example.com">nguyenthanhphu@example.com</a></p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/nguyenthanhphu</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Nguyễn Thành Phú. All rights reserved.</p>
-    </footer>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar text-white">
+                <div class="position-sticky">
+                    <div class="text-center mt-4">
+                        <img src="profile.jpg" alt="Nguyễn Thành Phú" class="rounded-circle" width="100">
+                        <h4 class="mt-2">Nguyễn Thành Phú</h4>
+                        <p>Lập trình viên & Nhà phát triển phần mềm</p>
+                    </div>
+                    <ul class="nav flex-column p-3">
+                        <li class="nav-item"><a class="nav-link text-white" href="#home">🏠 Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#about">👤 Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#resume">📄 Kinh nghiệm</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#portfolio">📷 Dự án</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#contact">📩 Liên hệ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <section id="home" class="p-5 text-center text-white bg-primary">
+                    <h1>Nguyễn Thành Phú</h1>
+                    <p>I'm a Software Developer</p>
+                </section>
+                
+                <section id="about" class="p-5">
+                    <h2>Giới thiệu</h2>
+                    <p>Xin chào! Tôi là Nguyễn Thành Phú, một lập trình viên đam mê công nghệ và sáng tạo.</p>
+                </section>
+                
+                <section id="resume" class="p-5 bg-light">
+                    <h2>Kinh nghiệm làm việc</h2>
+                    <p><strong>Công ty ABC</strong> - Lập trình viên (2020 - Nay)</p>
+                    <ul>
+                        <li>Phát triển ứng dụng web với React và Node.js</li>
+                        <li>Thiết kế cơ sở dữ liệu MySQL</li>
+                    </ul>
+                </section>
+                
+                <section id="portfolio" class="p-5">
+                    <h2>Dự án tiêu biểu</h2>
+                    <p><strong>Ứng dụng Quản lý Công Việc</strong>: Một công cụ giúp quản lý công việc hiệu quả.</p>
+                </section>
+                
+                <section id="contact" class="p-5 bg-light">
+                    <h2>Liên hệ</h2>
+                    <p>Email: <a href="mailto:nguyenthanhphu@example.com">nguyenthanhphu@example.com</a></p>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
